@@ -11,16 +11,16 @@ class Node:
         self.adj = []
         self.val = val
         self.visited = 0
-        # self.f = 0
 
 vertex = [None]
 for n in range(N):
     vertex.append(Node(n+1))
 
 for m in range(M):
-    v, u = list(map(int, input().split()))
+    u, v = list(map(int, input().split()))
     vertex[u].adj.append(vertex[v])
 
+result = []
 def dfs(v : Node):
     if v.visited == 1:
         return
@@ -29,8 +29,11 @@ def dfs(v : Node):
     
     for a in v.adj:
         dfs(a)
-
-    print(v.val, end=" ")
+        
+    result.append(v.val)
 
 for i in range(1, N+1):
     dfs(vertex[i])
+
+result.reverse()
+print(*result)
