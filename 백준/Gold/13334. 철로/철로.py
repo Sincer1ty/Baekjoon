@@ -1,32 +1,39 @@
-import sys
 import heapq
-
+import sys
 input = sys.stdin.readline
 
 n = int(input())
 
-trails = []
+trail = []
 for _ in range(n):
     home, office = map(int, input().split())
-    trails.append((min(home, office), max(home, office)))
+    if home > office:
+        home, office = office, home
+    trail.append([home, office])
 
+# 끝점 기준으로 정렬
+trail.sort(key=lambda x: x[1])
+
+# 철로의 길이 : d
 d = int(input())
 
-trails.sort(key=lambda x: x[1])  # 끝점 기준으로 정렬
-
 result = 0
-start_points = []
+startPoints = []
 count = 0
+for home, office in trail:
+    trailS = office - d
+    trailE = office
 
-for end in trails:
-    while start_points and start_points[0] < end[1] - d:
-        heapq.heappop(start_points)
-        count -= 1
-    
-    if end[1] - end[0] <= d:
-        heapq.heappush(start_points, end[0])
-        count += 1
-    
-    result = max(result, count)
+    # 집 & 사무실 모두 철로에 포함되는 최대 사람 수 구하기
+    while startPoints and startPoints[0] < trailS:
+        heapq.heappop(startPoints)
+        count -=1
+
+    if office - home <= d:
+        heapq.heappush(startPoints, home)
+        count +=1
+
+    if result < count:
+        result = count
 
 print(result)
