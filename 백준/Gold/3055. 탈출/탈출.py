@@ -5,18 +5,13 @@ R, C = map(int, input().split())
 
 map = []
 water = []
-stone = []
 for _ in range(R):
     row = list(input().strip())
     for i, r in enumerate(row):
-        if r == 'D':
-            dest = (_, i)
-        elif r == 'S':
+        if r == 'S':
             start = (_, i)
         elif r == '*':
             water.append((_, i))
-        elif r == 'X':
-            stone.append((_, i))
     map.append(row)
 
 # 우, 좌, 상, 하
@@ -58,8 +53,9 @@ def bfs(x,y):
             pos = q.get()
             x = pos[0]
             y = pos[1]
-        
-            for i in range(4): # 우, 좌, 상, 하
+
+            # 우, 좌, 상, 하
+            for i in range(4):
                 if x+dx[i] == -1 or y+dy[i] == -1 or x+dx[i] == R or y+dy[i] == C :
                     continue
                 if map[x+dx[i]][y+dy[i]] == '.':
