@@ -1,37 +1,39 @@
 class Solution {
 public:
     string pushDominoes(string dominoes) {
-        int n = dominoes.size();
+        vector<signed char> secs(dominoes.size(), 0);
         string result = dominoes;
         int left = -1, right = -1;
 
-        for (int i = 0; i <= n; i++) {
-            char c = (i < n) ? dominoes[i] : 'R';  // 끝 처리
+        for (int i = 0; i <= dominoes.size(); i++) {
+            char c = (i < dominoes.size()) ? dominoes[i] : 'R';  // 끝 처리
 
-            if (c == 'R') {
-                if (right > left) {
-                    // 이전 R 이후 .들 전부 R로
-                    for (int j = right + 1; j < i; j++) {
-                        result[j] = 'R';
-                    }
-                }
-                right = i;
-            } else if (c == 'L') {
-                if (right > left) {
-                    // R ... L 사이 처리
+            if (c == 'L') {
+                if (left < right) {
                     int low = right + 1, high = i - 1;
+
                     while (low < high) {
                         result[low++] = 'R';
                         result[high--] = 'L';
                     }
-                } else {
-                    // 이전 L 이후 .들 전부 L로
+                }
+                else {
+                    // 지금까지 . 넘어뜨리기
                     for (int j = left + 1; j < i; j++) {
                         result[j] = 'L';
                     }
                 }
                 left = i;
                 right = -1;
+            }
+            else if (c == 'R') {
+                if (right > left) {
+                    // 앞으로의 . 넘어뜨리기
+                    for (int j = right + 1; j < i; j++) {
+                        result[j] = 'R';
+                    }
+                }
+                right = i;
             }
         }
 
