@@ -25,4 +25,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sincer1ty/Baekjoon/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0806-domino-and-tromino-tiling](https://github.com/Sincer1ty/Baekjoon/tree/master/0806-domino-and-tromino-tiling) |
 <!---LeetCode Topics End-->
