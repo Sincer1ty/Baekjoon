@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sincer1ty/Baekjoon/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Queue
 |  |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0806-domino-and-tromino-tiling](https://github.com/Sincer1ty/Baekjoon/tree/master/0806-domino-and-tromino-tiling) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Hash Table
 |  |
@@ -64,9 +66,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Two Pointers
 |  |
 | ------- |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Sincer1ty/Baekjoon/tree/master/2320-find-all-k-distant-indices-in-an-array) |
+## Memoization
+|  |
+| ------- |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 <!---LeetCode Topics End-->
