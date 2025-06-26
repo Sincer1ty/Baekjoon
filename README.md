@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Two Pointers
@@ -76,4 +77,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+## Simulation
+|  |
+| ------- |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 <!---LeetCode Topics End-->
