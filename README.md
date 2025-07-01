@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3617-find-the-original-typed-string-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3617-find-the-original-typed-string-i) |
 ## Two Pointers
 |  |
 | ------- |
