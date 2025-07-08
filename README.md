@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Sincer1ty/Baekjoon/tree/master/0594-longest-harmonious-subsequence) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Sincer1ty/Baekjoon/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Sincer1ty/Baekjoon/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sincer1ty/Baekjoon/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Sincer1ty/Baekjoon/tree/master/2215-finding-3-digit-even-numbers) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Sincer1ty/Baekjoon/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sincer1ty/Baekjoon/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sincer1ty/Baekjoon/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -29,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Sincer1ty/Baekjoon/tree/master/0594-longest-harmonious-subsequence) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Sincer1ty/Baekjoon/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sincer1ty/Baekjoon/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Sincer1ty/Baekjoon/tree/master/2215-finding-3-digit-even-numbers) |
 ## Monotonic Queue
@@ -57,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Sincer1ty/Baekjoon/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Matrix
 |  |
