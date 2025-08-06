@@ -11,12 +11,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sincer1ty/Baekjoon/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Sincer1ty/Baekjoon/tree/master/2215-finding-3-digit-even-numbers) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Sincer1ty/Baekjoon/tree/master/2320-find-all-k-distant-indices-in-an-array) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sincer1ty/Baekjoon/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Sincer1ty/Baekjoon/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Binary Search
 |  |
 | ------- |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sincer1ty/Baekjoon/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sincer1ty/Baekjoon/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Greedy
 |  |
 | ------- |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Sincer1ty/Baekjoon/tree/master/0594-longest-harmonious-subsequence) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sincer1ty/Baekjoon/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Counting
 |  |
 | ------- |
@@ -107,4 +110,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sincer1ty/Baekjoon/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Sincer1ty/Baekjoon/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 <!---LeetCode Topics End-->
